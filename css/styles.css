@@ -1,0 +1,220 @@
+/* FONT - font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.fondoBlanco {
+  background-color: #F7F7FF;
+}
+
+.fondoNegro {
+  background-color: #393839;
+}
+
+.paddingSection {
+  width: 100%;
+  padding: 50px;
+  font-size: 1.5rem;
+}
+
+.decoration {
+  text-decoration: underline 0.3rem #848586;
+}
+
+/**** header ****/
+a {
+  font-family: 'Lato', sans-serif;
+  border-radius: 4px;
+}
+
+li {
+  font-size: 1.5rem;
+  color: #393839;
+}
+
+li:hover {
+  background-color: #e7eaec;
+}
+
+/**** main ****/
+main {
+  margin-top: 3.2rem;
+}
+
+.imgTomas {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+@media (max-width: 520px) {
+  .imgTomas {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: #F7F7FF;
+}
+
+@media (max-width: 460px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.parrafoMain {
+  color: #F7F7FF;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.buttonMain {
+  color: #393839;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 12px 48px;
+  border-radius: 50px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.buttonMain:hover {
+  color: #848586;
+}
+
+/**** Section Tecnologías ****/
+#sectionTecnologias {
+  color: #fff;
+}
+
+.contenedorImgTec {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner img {
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 992px) {
+  .contenedorImgTec {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  .banner img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/**** Section Proyectos ****/
+.cardProyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.contenedorProyectos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+@media (max-width: 992px) {
+  .contenedorProyectos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.cardBotones {
+  display: flex;
+  gap: 30px;
+}
+
+.botonLink {
+  background-color: #393839;
+  border-radius: 20px;
+  margin-top: 22px;
+}
+
+.botonLink a {
+  color: #F7F7FF;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.botonLink:hover {
+  background-color: rgb(120, 74, 74);
+}
+
+@media (max-width: 990px ) {
+  .imgPortfolio {
+    width: 450px;
+    height: 250px;
+   }
+  }
+
+/**** Section Hablemos ****/
+
+#sectionContacto {
+  color: #fff;
+}
+
+.botonC {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 4px;
+}
+
+.botonC a {
+  color: #393839;
+  font-size: 1rem;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.botonC:hover {
+  background-color: rgb(162, 95, 95);
+}
+
+@media (max-width: 600px) {
+  .botonC {
+    border-radius: 14px;
+    margin: 3px;
+    padding: 6px;
+  }
+
+
+  .botonC a {
+    color: #393839;
+    font-size: 1rem;
+    padding: 1px;
+    text-decoration: none;
+  }
+}
+
+.scrollTop {
+  text-decoration: none;
+}
+
+.botonFlecha {
+  margin-right: 10px;
+}
