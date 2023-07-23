@@ -36,14 +36,14 @@ li:hover {
 
 /**** main ****/
 main {
-  margin-top: 3.2rem;
+  margin-top: 3rem;
 }
 
 .imgTomas {
-  width: 25rem;
-  height: 25rem;
-  border-radius: 50%;
-  margin-top: 2rem;
+  width: 22rem;
+  height: 23rem;
+  border-radius: 15%;
+  margin-top: 4rem;
 }
 
 @media (max-width: 520px) {
@@ -56,8 +56,7 @@ main {
 .title {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  font-size: 4rem;
-  margin-bottom: 0;
+  font-size: 3.5rem;
   color: #F7F7FF;
 }
 
@@ -71,10 +70,10 @@ main {
   color: #F7F7FF;
   font-weight: 400;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-.buttonMain {
+/* .buttonMain {
   color: #393839;
   text-decoration: none;
   letter-spacing: 1px;
@@ -82,11 +81,11 @@ main {
   border-radius: 50px;
   margin: 10px;
   background-color: #fff;
-}
+} */
 
-.buttonMain:hover {
+/* .buttonMain:hover {
   color: #848586;
-}
+} */
 
 /**** Section Tecnologías ****/
 #sectionTecnologias {
