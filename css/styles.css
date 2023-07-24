@@ -73,20 +73,6 @@ main {
   font-size: 1.5rem;
 }
 
-/* .buttonMain {
-  color: #393839;
-  text-decoration: none;
-  letter-spacing: 1px;
-  padding: 12px 48px;
-  border-radius: 50px;
-  margin: 10px;
-  background-color: #fff;
-} */
-
-/* .buttonMain:hover {
-  color: #848586;
-} */
-
 /**** Section Tecnologías ****/
 #sectionTecnologias {
   color: #fff;
@@ -172,7 +158,6 @@ main {
   }
 
 /**** Section Hablemos ****/
-
 #sectionContacto {
   color: #fff;
 }
