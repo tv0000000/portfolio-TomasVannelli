@@ -67,11 +67,30 @@ main {
 }
 
 .parrafoMain {
+  display: inline-block;
+  margin-bottom: 2px;
   color: #F7F7FF;
   font-weight: 400;
   font-style: italic;
   font-size: 1.5rem;
 }
+
+.buttonMain {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #393839;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.buttonMain:hover {
+  color: #848586;
+}
+
+
 
 /**** Section Tecnologías ****/
 #sectionTecnologias {
