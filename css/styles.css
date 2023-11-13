@@ -67,7 +67,6 @@ main {
 }
 
 .parrafoMain {
-  display: inline-block;
   margin-bottom: 2px;
   color: #F7F7FF;
   font-weight: 400;
@@ -89,8 +88,6 @@ main {
 .buttonMain:hover {
   color: #848586;
 }
-
-
 
 /**** Section Tecnologías ****/
 #sectionTecnologias {
